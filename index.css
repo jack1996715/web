@@ -6,46 +6,62 @@ body {
     background-clip: padding-box;*/
 }
 
-h1 {
-    background-color: #F0F0F0;
-    font-size: 22pt;
+h3 {
+    font-size: 50pt;
     font-family: Verdana, Serif;
     color: #A4A400;
     font-weight: bold;
-    text-decoration: underline;
     text-align: center;
     letter-spacing: 0.2em;
 }
 
-h2 {
-    background-color: #F0F0F0;
-    font-size: 18pt;
-    color: #A4A400;
-    font-weight: normal;
-    text-decoration: underline;
-    font-family: Verdana, Serif;
-    letter-spacing: 0.2em;
+div[id*=index] {
+    font-size: 25pt;
+    font-family: "Georgia";
+    color: #404040;
+    text-align: center;
 }
 
-div, li{
-    font-size: 11pt;
+span[id*=index2] {
+    font-style: italic;
+    font-weight: bold;
     font-family: "Georgia";
+    font-size: 30pt;
     color: #404040;
     line-height: 14pt;
 }
 
-ul>.pie, ol>.pie{
-    font-size: 11pt;
-    font-family: "Georgia";
-    color: #404040;
-    line-height: 14pt;
-    list-style-image: url('http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif');
+img[id*=g1] {
+    height: 240px;
+    width: 240px;
+    left: 550px;
+    position: absolute;
+}
+
+p[id*=copyright] {
+    font-size: 8pt;
+    font-style: italic;
+    padding: 0 0;
 }
 
 span {
     font-weight: bold;
     font-family: "Georgia";
     font-size: 11pt;
+    color: #404040;
+    line-height: 14pt;
+}
+
+a{
+    color: #A4A400;
+    text-decoration: underline;
+    font-size: 11pt;
+    font-family: "Georgia";
+}
+
+div, li{
+    font-size: 11pt;
+    font-family: "Georgia";
     color: #404040;
     line-height: 14pt;
 }
@@ -58,11 +74,4 @@ p {
     color: #404040;
     padding: 0 2.5em;
     background-clip: content-box;
-}
-
-a{
-    color: #A4A400;
-    text-decoration: underline;
-    font-size: 11pt;
-    font-family: "Georgia";
 }
